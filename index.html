@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-game</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="mod">
+            <p>Light</p>
+            <div class="btn-area">
+                <input type="checkbox" id="btnon">
+                <label onclick="darck()" onclick="light()" class="onOff" for="btnon"></label>
+            </div>
+            <p>Dark</p>
+        </div>
+    </header>
+    <section>
+        <div class="container ">
+            <div class="corpo">
+                <div class="tela">
+                    <div class="tela-on">
+                        <img class="img" src="style/assets/1.png" alt="">
+                    </div>
+                </div>
+                <div class="menu-contain">
+                    <div class="mini-display"> 
+                        <div class="mini-display--on">
+                           <img class="mini" src="style/mini/1.png" alt="">
+                           
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="button-on">
+                            <i class="fa-solid fa-power-off"></i>
+                        </div>
+
+                        <div class="button-left" onclick="prev()" onclick="prev2()"><i class="fa-solid fa-angles-left"></i></div>
+
+                        <div class="button-right" onclick="next()"><i class="fa-solid fa-angles-right"></i></div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/b94b5f5b46.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
